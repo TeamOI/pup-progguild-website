@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home | PUP Programming Guild</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel|Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="components/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="components/materialize/css/materialize.min.css" media="screen,projection">
+<link rel="stylesheet" type="text/css" href="vendor/jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="components/calendar/calendar.css">
+<link rel="stylesheet" type="text/css" href="components/form/form.css">
+<link rel="stylesheet" type="text/css" href="components/navbar/navbar.css">
+<link rel="stylesheet" type="text/css" href="components/section/section.css">
+<link rel="stylesheet" type="text/css" href="components/footer/footer.css">
+
+<style>
+body {
+	font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Abel, sans-serif;
+}
+</style>
+</head>
+<body>
+<h1 class="sr-only">PUP Programming Guild</h1>
+<nav class="white" role="navigation" >
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="5977119.png" width="55" height="55" vspace="10"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="events.html" class="black-text">Events</a></li>
+        <li class="active"><a href="members.html" class="black-text">Members</a></li>
+        <li><a href="contact.html" class="black-text">Contact</a></li>
+        <li><a href="faq.html" class="black-text">FAQ</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<section class="page-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-8">
+				<figure>
+					<img src="http://placehold.it/400x300" class="img-responsive">
+					<figcaption>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod aliquam
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="page-calendar -home"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-12">
+						<h2>About</h2>
+						<ul class="list-unstyled">
+							<li><a href="aboutus.html">What We Are</a></li> 
+							<li><a href="#">What We Do</a></li>
+							<li><a href="#">What We Plan To Do</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-12">
+						<h2>Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="https://www.pup.edu.ph">PUP Official Web Site</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<form class="page-form" method="post">
+					<h2>Contact</h2>
+					<div class="form-group">
+						<label for="footer/contact/email">Your email address</label>
+						<input type="email" id="footer/contact/email" required
+						       placeholder="Your email address" class="form-control">
+						PUP Programming Guild will respond to this address.
+					</div>
+					<div class="form-group">
+						<label for="footer/contact/subject">Subject</label>
+						<input type="text" id="footer/contact/subject" required
+						       placeholder="Subject" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="footer/contact/message">Message</label>
+						<textarea class="textarea form-control" rows="5" required
+						          id="footer/contact/message" placeholder="Message"></textarea>
+						You will be given a copy of this message.
+					</div>
+					<div class="form-group actions">
+						<button class="btn btn-primary" type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="text-muted">
+			<p>
+				PUP Programming Guild, 2016.
+			</p>
+		</div>
+	</div>
+</footer>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../../bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
